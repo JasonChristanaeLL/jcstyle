@@ -88,6 +88,7 @@ header {
 .user {
   display: flex;
   align-items: center;
+  transition: all 0.5s ease;
 }
 
 .user i {
@@ -120,7 +121,7 @@ header {
   }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1080px) {
   #menu-icon {
     display: block;
   }
@@ -157,5 +158,26 @@ header {
 
   .navbar.open {
     right: 2%;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+  .main a {
+    font-size: smaller;
+    transition: all 0.5s ease;
+  }
+
+  .logo i {
+    font-size: 20px;
+    transition: all 0.5s ease;
+  }
+
+  .logo span {
+    font-size: 20px;
+    transition: all 0.5s ease;
+  }
+
+  .user i {
+    font-size: 20px;
   }
 }
