@@ -161,7 +161,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 418px) {
+@media (max-width: 418px) {
   .main a {
     font-size: smaller;
     transition: all 0.5s ease;
@@ -179,5 +179,31 @@ header {
 
   .user i {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 337px) {
+  .main a {
+    font-size: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .logo i {
+    font-size: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .logo span {
+    font-size: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .user i {
+    font-size: 10px;
+  }
+
+  #menu-icon {
+    font-size: 20px;
+    transition: all 0.5s ease;
   }
 }
