@@ -39,9 +39,10 @@ header {
   align-items: center;
 }
 
-.logo i {
+.logo img {
   color: var(--main-color);
-  font-size: 28px;
+  width: 50px;
+  height: auto;
   margin-right: 3px;
 }
 
@@ -162,14 +163,15 @@ header {
   }
 }
 
-@media (max-width: 418px) {
+@media (max-width: 441px) {
   .main a {
     font-size: smaller;
     transition: all 0.5s ease;
   }
 
-  .logo i {
-    font-size: 20px;
+  .logo img {
+    width: 40px;
+    height: auto;
     transition: all 0.5s ease;
   }
 
@@ -183,24 +185,25 @@ header {
   }
 }
 
-@media (max-width: 337px) {
+@media (max-width: 369px) {
   .main a {
     font-size: 10px;
     transition: all 0.5s ease;
   }
 
-  .logo i {
-    font-size: 10px;
+  .logo img {
+    width: 40px;
+    height: auto;
     transition: all 0.5s ease;
   }
 
   .logo span {
-    font-size: 10px;
+    font-size: 15px;
     transition: all 0.5s ease;
   }
 
   .user i {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   #menu-icon {
