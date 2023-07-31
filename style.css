@@ -185,9 +185,9 @@ header {
   }
 }
 
-@media (max-width: 369px) {
+@media (max-width: 370px) {
   .main a {
-    font-size: 10px;
+    font-size: 15px;
     transition: all 0.5s ease;
   }
 
