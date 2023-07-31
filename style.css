@@ -219,7 +219,7 @@ header {
   }
 
   .logo img {
-    width: 40px;
+    width: 35px;
     height: auto;
     transition: all 0.5s ease;
   }
@@ -230,11 +230,65 @@ header {
   }
 
   .user i {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   #menu-icon {
     font-size: 30px;
+    transition: all 0.5s ease;
+  }
+}
+
+@media (max-width: 363px) {
+  .main a {
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+
+  .logo img {
+    width: 35px;
+    height: auto;
+    transition: all 0.5s ease;
+  }
+
+  .logo span {
+    font-size: 18px;
+    transition: all 0.5s ease;
+  }
+
+  .user i {
+    font-size: 18px;
+  }
+
+  #menu-icon {
+    font-size: 27px;
+    transition: all 0.5s ease;
+  }
+}
+
+@media (max-width: 350px) {
+  .main a {
+    font-size: 12px;
+    transition: all 0.5s ease;
+  }
+
+  .logo img {
+    width: 35px;
+    height: auto;
+    transition: all 0.5s ease;
+  }
+
+  .logo span {
+    font-size: 18px;
+    transition: all 0.5s ease;
+  }
+
+  .user i {
+    font-size: 18px;
+  }
+
+  #menu-icon {
+    font-size: 27px;
     transition: all 0.5s ease;
   }
 }
